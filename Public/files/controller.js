@@ -7,8 +7,8 @@ function controller() {
 
   const json = d3.json("https://unpkg.com/world-atlas@1/world/110m.json")
   const tsv = d3.tsv("https://unpkg.com/world-atlas@1/world/110m.tsv")
-  const usAllData = d3.csv('/USA/owid-covid-data.csv')
-  const WeekGrowthCase = d3.csv('/USA/weekly-growth-covid-cases.csv')
+  const usAllData = d3.csv('Public/USA/owid-covid-data.csv')
+  const WeekGrowthCase = d3.csv('Public/USA/weekly-growth-covid-cases.csv')
   const json1 = d3.json("https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-covid-data.json")
 
   const path = d3.geoPath()
