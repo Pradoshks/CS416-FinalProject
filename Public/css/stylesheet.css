@@ -4,7 +4,25 @@ h1 {
   /* color: steelblue; */
   fill:#635F5D;
   display: inline-block;
-  text-align: center
+  text-align: center;
+  font-size:1.2em
+}
+
+h3, .h3{
+  font-size:1.5em
+}
+
+.finalpage{
+font-size:1.4em
+}
+
+.finaline{
+  font-size:2em
+}
+.head{
+  margin-top: 0px;
+padding-top: 5.5px;
+margin-bottom: 0px
 }
 
 h4 {
@@ -92,7 +110,17 @@ float:right;
   text-align: center;
   color: #635F5D
 }
-.leftTitle{
-  font-size: 0.9em;
+
+/* .header{
+  padding-bottom: 0
+} */
+.leftTitle, .rightTitle{
+  font-size: 0.8em;
   color:#635F5D
 }
+
+/* .col-lg-10 {
+  height: 600px;
+  width: 980px;
+  background-color: powderblue;
+} */
