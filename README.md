@@ -1,2 +1,2 @@
-# CS416-FinalProject
+# CS416-Final Project
 CS416-FinalProject
